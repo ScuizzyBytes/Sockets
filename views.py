@@ -1,7 +1,7 @@
 def index():
-    with open('temple/index.html') as temple:
+    with open('index.html') as temple:
         return temple.read()
 
 def blog():
-    with open('temple/blog.html') as temple:
+    with open('blog.html') as temple:
         return temple.read()
